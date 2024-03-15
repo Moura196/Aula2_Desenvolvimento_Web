@@ -49,35 +49,6 @@ ul li a:hover {
     opacity: 1;
 }
 
-main {
-    display: flex;
-    align-items: center; /*mesmo alinhamento*/
-    justify-content: space-between; /*Um para cada lado*/
-}
-
-button {
-    color: white;
-    text-transform: uppercase; /*Maiúsculo*/
-    font-family: 'Open Sans', sans-serif;
-
-    background: #69B99D;
-
-    border: o;
-    padding: 14px 32px 15px;
-    
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-    border-radius: 4px;
-}
-
-button:hover {
-    background: green;
-}
-
 footer {
     font-size: 14px;
     line-height: 28px;
@@ -90,5 +61,3 @@ footer {
 span {
     color: #89C5CC;
 }
-
-/*Criar pagina sobre e treinar, com padrão de footer e nav*
