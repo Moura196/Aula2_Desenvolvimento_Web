@@ -27,7 +27,7 @@ ul {
     list-style: none; /*Não mostra os pontos da lista*/
 }
 
-a {
+nav a {
     color: #1F1534;
     text-decoration: none;
 }
@@ -38,6 +38,11 @@ h1, ul {
 
 h1 {
     font-size: 49px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 ul li a {
@@ -58,6 +63,7 @@ main {
 button {
     color: white;
     text-transform: uppercase; /*Maiúsculo*/
+    
     font-family: 'Open Sans', sans-serif;
 
     background: #69B99D;
@@ -74,6 +80,10 @@ button {
     border-radius: 4px;
 }
 
+a {
+    color: white;
+}
+
 button:hover {
     background: green;
 }
@@ -85,6 +95,10 @@ footer {
     text-align: center;
 
     margin-top: 80px;
+}
+
+.preto a {
+    color: rgb(0, 0, 0);
 }
 
 span {

@@ -5,7 +5,7 @@ body {
 }
 
 .page {
-    /* border: 1px solid rgb(15, 255, 35); */
+    border: 1px solid rgb(15, 255, 35);
     width: 1000px;
     margin: 0 auto;
     padding-top: 65px;
